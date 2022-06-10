@@ -6,9 +6,9 @@ import card3 from "../../card3.png"
 
 const Card = () => {
     return (
-        <div className='container'>
-            <div className='d-flex justify-content-between'>
-            <div class="card" style={{width: '18rem'}}>
+        <div className='container row mt-4'>
+            <div className='col-8'>
+            <div class="card">
                 <img src={card1} class="card-img-top" alt="..."/>
                 <div class="card-body">
                     <h5 class="card-title">Article</h5>
@@ -17,21 +17,11 @@ const Card = () => {
                 </div>
                 </div>
 
-            <div>
-                <div class="card" style={{width: '18rem'}}>
-                <div class="card-body">
-                    <h5 class="card-title">Nadia, India</h5>
-                    <p class="card-subtitle mb-2 text-muted">Your location will help us serve better and extend a personalised experience.</p>
-                    
-
-                
-                </div>
-                </div>
-            </div>
-            </div>
+            
+            
 
             <div>
-            <div class="card" style={{width: '18rem'}}>
+            <div class="card" >
                 <img src={card2} class="card-img-top" alt="..."/>
                 <div class="card-body">
                     <h5 class="card-title">Article</h5>
@@ -41,7 +31,7 @@ const Card = () => {
                 </div>
             </div>
             <div>
-            <div class="card" style={{width: '18rem'}}>
+            <div class="card" >
                 <img src={card3} class="card-img-top" alt="..."/>
                 <div class="card-body">
                     <h5 class="card-title">Article</h5>
@@ -54,7 +44,7 @@ const Card = () => {
                 </div>
             </div>
             <div>
-            <div class="card" style={{width: '18rem'}}>
+            <div class="card" >
                 <div class="card-body">
                     <h5 class="card-title">Job</h5>
                     <p class="card-text">Software Developer</p>
@@ -67,6 +57,18 @@ const Card = () => {
                     <div class="d-grid gap-2">
                         <button class="btn btn-primary" type="button">Apply on Times Job</button>
                         </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div className='col-4'>
+                <div class="card" >
+                <div class="card-body">
+                    <h5 class="card-title">Nadia, India</h5>
+                    <p class="card-subtitle mb-2 text-muted">Your location will help us serve better and extend a personalised experience.</p>
+                    
+
+                
                 </div>
                 </div>
             </div>

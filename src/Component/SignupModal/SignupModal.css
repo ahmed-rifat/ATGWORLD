@@ -1,0 +1,39 @@
+
+.login-text-color{
+    color: #008A45;
+    font-family: IBM Plex Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+
+.create-account{
+    background-color: #2F6CE5;
+    color: white;
+    height: 40px;
+width:220px;
+left: 388px;
+top: 515px;
+border-radius: 20px;
+
+}
+.sign-with-google{
+    background: #FFFFFF;
+border: 0.6px solid #D9D9DB;
+border-radius: 2px;
+    height: 38px;
+width: 220px;
+left: 388px;
+top: 579px;
+border-radius: 2px;
+
+}
+.text-condition{
+    margin-top: 200px;
+}
+.it-is-free{
+    color: blue;
+}

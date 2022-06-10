@@ -2,7 +2,7 @@ import React from 'react';
 
 const PostBar = () => {
     return (
-        <div>
+        <div className='container mt-4'>
 <nav class="nav">
   <a class="nav-link active" href="#">All Posts(32)</a>
   <a class="nav-link" href="#">Article</a>

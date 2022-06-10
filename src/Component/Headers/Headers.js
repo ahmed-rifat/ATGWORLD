@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
 import logo from "../../whole.png"
-import LoginModal from '../LoginModal/LoginModal';
+import LoginModal from '../SignupModal/SignupModal';
 const Headers = () => {
     return (
         <div>
