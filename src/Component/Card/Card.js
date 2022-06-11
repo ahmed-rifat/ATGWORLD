@@ -12,7 +12,8 @@ import activism from "../../Activism.png"
 import mba from "../../mba.png"
 import philoshopy from "../../philoshopy.png"
 import './Card.css'
-import { faPencil, faBriefcase, faLocationDot, faMicroscope, faCalendar, faCircleExclamation, faShareNodes, faEye, faCalendarDay, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
+import { faPencil, faBriefcase, faLocationDot, faMicroscope, faCalendar, faCircleExclamation, faShareNodes, faEye, faCalendarDay, faThumbsUp, faEllipsis } from '@fortawesome/free-solid-svg-icons';
+import EllipseModal from './EllipseModal/EllipseModal';
 
 
 const Card = () => {
@@ -23,9 +24,16 @@ const Card = () => {
             <div class="card">
                 <img src={card1} class="card-img-top" alt="..."/>
                 <div class="card-body">
-                    <h5 class="card-title"><FontAwesomeIcon icon={faPencil} /> Article</h5>
-                    <p class="card-text">What if famous brands had regular fonts? Meet Regular brands!.</p>
+                    <div className='d-flex justify-content-between align-items-center'>
+                        <h5 class="card-title"><FontAwesomeIcon icon={faPencil} /> Article</h5>
+
+                    </div>
+                    <div className='d-flex justify-content-between align-items-center'>
+                    <p class="card-text">What if famous brands had regular fonts? Meet Regular brands!.</p> <span><FontAwesomeIcon icon={faEllipsis}/></span>
+                    </div>
+                    <div className='d-flex justify-content-between align-items-center'>
                     <p class="card-subtitle mb-2 text-muted">I've worked in UX for the better part of a decade.From now on, I plan to rei...</p>
+                    </div>
 
                     <div className='d-flex justify-content-between mt-3 align-items-center'>
                     <p><img src={sarthak} class="rounded-circle" alt="Cinque Terre"/> Sarthak Kamra</p>
@@ -42,9 +50,19 @@ const Card = () => {
             <div class="card" >
                 <img src={card2} class="card-img-top" alt="..."/>
                 <div class="card-body">
+                    <div className='d-flex justify-content-between align-items-center'>
+
                     <h5 class="card-title"><FontAwesomeIcon icon={faMicroscope} /> Education</h5>
+                    </div>
+
+                    <div className='d-flex justify-content-between align-items-center'>
+                        
                     <p class="card-text">Tax Benefits for Investment under National Pension Scheme launched by Government</p>
+                    <span><FontAwesomeIcon icon={faEllipsis}/></span>
+                    </div>
+                    <div className='d-flex justify-content-between align-items-center'>    
                     <p class="card-subtitle mb-2 text-muted">I've worked in UX for the better part of a decade.From now on, I plan to rei...</p>
+                    </div>
                     <div className='d-flex justify-content-between mt-3 align-items-center'>
                     <p><img src={sarah} class="rounded-circle" alt="Cinque Terre"/> Sarah West</p>
                     <p> <FontAwesomeIcon icon={faEye}/> 1.4k veiws</p> <FontAwesomeIcon icon={faShareNodes}/>
@@ -57,9 +75,15 @@ const Card = () => {
             <div class="card" >
                 <img src={card3} class="card-img-top" alt="..."/>
                 <div class="card-body">
+                    <div className='d-flex justify-content-between align-items-center'>
                     <h5 class="card-title"><FontAwesomeIcon icon={faCalendar} /> Meet up</h5>
+
+                    </div>
+                    <div className='d-flex justify-content-between align-items-center'>
                     <p class="card-text">Finance & Investment Elite Social Mixer @Lujiazui</p>
-                    <div className='d-flex justify-content-around'>
+                    <span><EllipseModal></EllipseModal></span>
+                    </div>
+                    <div className='d-flex justify-content-around mt-3'>
                         <p><FontAwesomeIcon icon={faCalendarDay}/> Fri, 12 Oct,2018</p>
                         <p>Ahmedabad,India</p>
                     </div>
@@ -77,8 +101,14 @@ const Card = () => {
             <div>
             <div class="card" >
                 <div class="card-body">
+                    <div className='d-flex justify-content-between mt-3 align-items-center'>
                     <h5 class="card-title"><FontAwesomeIcon icon={faBriefcase} /> Job</h5>
+
+                    </div>
+                    <div className='d-flex justify-content-between mt-3 align-items-center'>
                     <p class="card-text">Software Developer</p>
+                    <span><FontAwesomeIcon icon={faEllipsis}/></span>
+                    </div>
                     <div className='d-flex justify-content-between mt-3 align-items-center'>
                     <p class="card-text"><FontAwesomeIcon icon={faBriefcase}/> Innovaccer Analytics Private Ltd.
 </p>
@@ -114,25 +144,25 @@ const Card = () => {
                     <div className='d-flex justify-content-between mt-3 align-items-center'>
                     <p><img src={leisure} class="rounded-circle" alt="Cinque Terre"/> Leisure</p>
 
-                    <span class="badge rounded-pill bg-light text-dark">follow</span>
+                    <span class="badge rounded-pill bg-light text-dark">Follow</span>
 
                     </div>
                     <div className='d-flex justify-content-between mt-3 align-items-center'>
                     <p><img src={activism} class="rounded-circle" alt="Cinque Terre"/> Activism</p>
 
-                    <span class="badge rounded-pill bg-light text-dark">follow</span>
+                    <span class="badge rounded-pill bg-light text-dark">Follow</span>
 
                     </div>
                     <div className='d-flex justify-content-between mt-3 align-items-center'>
                     <p><img src={mba} class="rounded-circle" alt="Cinque Terre"/> MBA</p>
 
-                    <span class="badge rounded-pill bg-light text-dark">follow</span>
+                    <span class="badge rounded-pill bg-light text-dark">Follow</span>
 
                     </div>
                     <div className='d-flex justify-content-between mt-3 align-items-center'>
                     <p><img src={philoshopy} class="rounded-circle" alt="Cinque Terre"/> Philosophy</p>
 
-                    <span class="badge rounded-pill bg-light text-dark">follow</span>
+                    <span class="badge rounded-pill bg-light text-dark">Follow</span>
 
                     </div>
                     <div className='d-flex justify-content-between mt-3'>
