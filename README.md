@@ -8,4 +8,11 @@
  * Full website work on Front end technology
  * Font awesome icon added
 
+ # Technology
+  
+  * HTML5
+  * CSS3
+  * Font awesome icon
+  * JavaScript
+  * ReactJS
 
