@@ -1,7 +1,8 @@
 import React from 'react';
 import { Button, Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
 import logo from "../../whole.png"
-import LoginModal from '../SignupModal/SignupModal';
+import LoginModal from '../LoginModal/LoginModal';
+import SignupModal from '../SignupModal/SignupModal';
 const Headers = () => {
     return (
         <div>
@@ -20,11 +21,15 @@ const Headers = () => {
         <FormControl
           type="search"
           placeholder="Search for your favorite groups in ATG"
-          
-        />
+       />
+       <div class="input-group-append">
+      <button class="btn btn-secondary" type="button">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
       </Form>
-      <div>
-        <LoginModal></LoginModal>
+      <div className='ms-4'>
+        <SignupModal></SignupModal>
 
       </div>
     </Navbar.Collapse>

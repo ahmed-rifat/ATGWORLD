@@ -1,0 +1,13 @@
+.apply-on-times{
+    background: hwb(0 100% 0%);
+border: 0.7px solid #A9AEB8;
+border-radius: 10px;
+color: #02B875;
+}
+
+.visit-website{
+    background: #FFFFFF;
+border: 0.7px solid #A9AEB8;
+border-radius: 8px;
+color: #E56135;
+}

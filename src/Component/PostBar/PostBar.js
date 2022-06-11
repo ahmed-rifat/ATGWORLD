@@ -1,3 +1,5 @@
+import { faAngleDown, faUserGroup } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 const PostBar = () => {
@@ -10,8 +12,8 @@ const PostBar = () => {
   <a class="nav-link" href="#">Education</a>
   <a class="nav-link" href="#">Job</a>
 
-  <button type="button" class="btn btn-secondary">Write a Post</button>
-  <button type="button" class="btn btn-info mx-4">Join Group</button>
+  <button type="button" class="btn btn-secondary">Write a Post <FontAwesomeIcon icon={faAngleDown}/></button>
+  <button type="button" class="btn btn-info mx-4"><FontAwesomeIcon icon={faUserGroup}/> Join Group</button>
 
 
 
