@@ -20,7 +20,7 @@ const Card = () => {
     
     return (
         <div className='container row mt-4'>
-            <div className='col-8'>
+            <div className='col-7'>
             <div class="card">
                 <img src={card1} class="card-img-top" alt="..."/>
                 <div class="card-body">
@@ -128,7 +128,7 @@ const Card = () => {
                 </div>
             </div>
             </div>
-            <div className='col-4'>
+            <div className='col-5'>
                 <div class="card" >
                 <div class="card-body">
                     <div className='d-flex justify-content-between'>
@@ -137,8 +137,9 @@ const Card = () => {
                     </div>
                     <hr />
                     <p class="card-subtitle mb-2 mt-4 text-muted"><FontAwesomeIcon icon={faCircleExclamation} /> Your location will help us serve better and extend a personalised experience.</p>
-
-                    <p className='mt-5'><FontAwesomeIcon icon={faThumbsUp} /> REcommended Groups</p>
+                </div>
+                <div className="card-body">
+                <p className='mt-5'><FontAwesomeIcon icon={faThumbsUp} /> REcommended Groups</p>
 
                     
                     <div className='d-flex justify-content-between mt-3 align-items-center'>
@@ -167,13 +168,16 @@ const Card = () => {
                     </div>
                     <div className='d-flex justify-content-between mt-3'>
                         <p></p>
-                     <p className='see-more'>See More...</p>
+                    <p className='see-more'>See More...</p>
 
                     </div>
+
+                </div>
+                    
                     
 
                 
-                </div>
+                
                 </div>
             </div>
         </div>
