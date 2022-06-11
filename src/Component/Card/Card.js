@@ -7,8 +7,12 @@ import sarthak from "../../sathak-karma.png"
 import sarah from "../../sarah.png"
 import ronal from "../../ronal.png"
 import joseph from "../../josesep.png"
+import leisure from "../../leisure.png"
+import activism from "../../Activism.png"
+import mba from "../../mba.png"
+import philoshopy from "../../philoshopy.png"
 import './Card.css'
-import { faPencil, faBriefcase, faLocationDot, faMicroscope, faCalendar, faCircleExclamation, faShareNodes, faEye, faCalendarDay } from '@fortawesome/free-solid-svg-icons';
+import { faPencil, faBriefcase, faLocationDot, faMicroscope, faCalendar, faCircleExclamation, faShareNodes, faEye, faCalendarDay, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 
 
 const Card = () => {
@@ -103,6 +107,39 @@ const Card = () => {
                     </div>
                     <hr />
                     <p class="card-subtitle mb-2 mt-4 text-muted"><FontAwesomeIcon icon={faCircleExclamation} /> Your location will help us serve better and extend a personalised experience.</p>
+
+                    <p className='mt-5'><FontAwesomeIcon icon={faThumbsUp} /> REcommended Groups</p>
+
+                    
+                    <div className='d-flex justify-content-between mt-3 align-items-center'>
+                    <p><img src={leisure} class="rounded-circle" alt="Cinque Terre"/> Leisure</p>
+
+                    <span class="badge rounded-pill bg-light text-dark">follow</span>
+
+                    </div>
+                    <div className='d-flex justify-content-between mt-3 align-items-center'>
+                    <p><img src={activism} class="rounded-circle" alt="Cinque Terre"/> Activism</p>
+
+                    <span class="badge rounded-pill bg-light text-dark">follow</span>
+
+                    </div>
+                    <div className='d-flex justify-content-between mt-3 align-items-center'>
+                    <p><img src={mba} class="rounded-circle" alt="Cinque Terre"/> MBA</p>
+
+                    <span class="badge rounded-pill bg-light text-dark">follow</span>
+
+                    </div>
+                    <div className='d-flex justify-content-between mt-3 align-items-center'>
+                    <p><img src={philoshopy} class="rounded-circle" alt="Cinque Terre"/> Philosophy</p>
+
+                    <span class="badge rounded-pill bg-light text-dark">follow</span>
+
+                    </div>
+                    <div className='d-flex justify-content-between mt-3'>
+                        <p></p>
+                     <p className='see-more'>See More...</p>
+
+                    </div>
                     
 
                 
